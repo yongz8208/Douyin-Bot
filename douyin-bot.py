@@ -5,7 +5,7 @@ import time
 from PIL import Image
 import argparse
 
-if sys.version_info.major != 3:
+if sys.version_info.major != 3:    #查看python的版本
     print('Please run under Python3')
     exit(1)
 try:
